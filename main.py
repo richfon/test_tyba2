@@ -1,6 +1,7 @@
 """
 main.py - FastAPI REST API for user registration, login, logout, restaurant search, and transaction listing.
 """
+"this code is migrated from the  .ipynb for it to be tested in a better way, since test on the ipynb are theorical and to be able to test docker"
 from fastapi import FastAPI, Depends, HTTPException, status, Request
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from fastapi.middleware.cors import CORSMiddleware
