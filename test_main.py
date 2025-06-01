@@ -1,5 +1,7 @@
 """
 test_main.py - Automated tests for FastAPI REST API in main.py
+
+this tests are based on the last nodes made on the .ipynb since they were theorical
 """
 import pytest
 from fastapi.testclient import TestClient
